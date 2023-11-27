@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-27T11:14:28 IST" name="Default suite" finished-at="2023-11-27T11:15:25 IST" duration-ms="57342">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner_SmartHospital@2b40ff9c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-27T11:14:28 IST" name="Default test" finished-at="2023-11-27T11:15:25 IST" duration-ms="57342">
+      <class name="runner.TestRunner_SmartHospital">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner_SmartHospital@2b40ff9c]" started-at="2023-11-27T11:14:28 IST" name="setUpClass" finished-at="2023-11-27T11:14:28 IST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35025a0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner_SmartHospital@2b40ff9c]" started-at="2023-11-27T11:14:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-27T11:14:41 IST" duration-ms="13230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching the report and downloading the pdf"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the User Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner_SmartHospital@2b40ff9c]" started-at="2023-11-27T11:14:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-27T11:14:57 IST" duration-ms="15396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding the payment details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the User Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner_SmartHospital@2b40ff9c]" started-at="2023-11-27T11:14:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-27T11:15:08 IST" duration-ms="10876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sorting the component issue using component name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the User Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner_SmartHospital@2b40ff9c]" started-at="2023-11-27T11:15:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-27T11:15:25 IST" duration-ms="17285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sending chat to the staff member"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the User Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner_SmartHospital@2b40ff9c]" started-at="2023-11-27T11:15:25 IST" name="tearDownClass" finished-at="2023-11-27T11:15:25 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner_SmartHospital -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
